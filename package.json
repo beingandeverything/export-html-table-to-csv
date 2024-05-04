@@ -2,8 +2,9 @@
   "name": "export-html-table-to-csv",
   "version": "1.0.0",
   "description": "Package to export html table to csv file",
-  "main": "index.js",
+  "main": "src/index.min.js",
   "scripts": {
+    "build": "uglifyjs src/index.js -o src/index.min.js --mangle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/sunilb112/export-html-table-to-csv/issues"
   },
-  "homepage": "https://github.com/sunilb112/export-html-table-to-csv#readme"
+  "homepage": "https://github.com/sunilb112/export-html-table-to-csv#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "babel-cli": "^6.26.0",
+    "uglify-js": "^3.17.4"
+  }
 }
