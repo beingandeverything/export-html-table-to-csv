@@ -25,8 +25,6 @@
   },
   "homepage": "https://github.com/sunilb112/export-html-table-to-csv#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.24.5",
-    "babel-cli": "^6.26.0",
     "uglify-js": "^3.17.4"
   }
 }
