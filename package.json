@@ -1,6 +1,6 @@
 {
   "name": "export-html-table-to-csv",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Package to export html table to csv file",
   "main": "src/index.min.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "csv"
   ],
   "author": "BeingAndEverything",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/beingandeverything/export-html-table-to-csv/issues"
   },
