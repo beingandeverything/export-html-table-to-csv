@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunilb112/export-html-table-to-csv.git"
+    "url": "git+https://github.com/beingandeverything/export-html-table-to-csv.git"
   },
   "keywords": [
     "export",
@@ -21,9 +21,9 @@
   "author": "BeingAndEverything",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sunilb112/export-html-table-to-csv/issues"
+    "url": "https://github.com/beingandeverything/export-html-table-to-csv/issues"
   },
-  "homepage": "https://github.com/sunilb112/export-html-table-to-csv#readme",
+  "homepage": "https://github.com/beingandeverything/export-html-table-to-csv#readme",
   "devDependencies": {
     "uglify-js": "^3.17.4"
   }
