@@ -32,7 +32,7 @@ $ yarn add export-html-table-to-csv
 import { downloadHtmlTableToCSV } from "export-html-table-to-csv";
 
 try {
-  const tableIds = ["#tableId1"];
+  const tableIds = ["tableId1"];
   const filename = "NewCsvFileName";
   const exportUntilRowId = "";
   downloadHtmlTableToCSV(tableIds, filename, exportUntilRowId);
